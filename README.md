@@ -14,8 +14,8 @@ In this work, Neural Network Modeling (Deep Learning) was used to help a foundat
 - Git
 
 ## Results
-The initial deep learning analysis resulted in the model wioth 0.72 accuracy (loss = xx)
-For the three try outs, the model weights were successfully save on each 5th epoch (available in GitHub repository (checkpoint01, checkpoint02, and checkpoint03, respectively). 
+The initial deep learning analysis resulted in the model wioth 0.72 accuracy (loss = 0.56). Check point files were generated for every 5th epoch (checkpoints folder), and the final h5 file was also saved (charity_d02.h5). 
+For the three try outs, the model weights were successfully save on each 5th epoch (available in GitHub repository (checkpoint01, checkpoint02, and checkpoint03, respectively). The h5 files were saved ascharity_cp01.h5, charity_cp01.h5, and charity_cp01.h5, respectively.
 
 - For the initial Neural Network model, 2 hidden layers, and the output model was used as follows.
   - 1st hidden layer: Dense(units=24, input_dim=number_input_features, activation="relu"
