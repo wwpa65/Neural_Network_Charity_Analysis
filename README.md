@@ -17,28 +17,45 @@ In this work, Nural Network Modeling (Deep Learning) was used to help a foundati
   - 1st hidden layer: Dense(units=24, input_dim=number_input_features, activation="relu"
   - 2nd hidden layer:Dense(units=12, activation="relu"
   - Output layer: Dense(units=1, activation="sigmoid"
+  - loss="binary_crossentropy", optimizer="adam", metrics= "accuracy", epochs = 50
   - The model accuracy = 0.72, loss = 0.56 
 
 Then the model was re-run 3 times as follows.
 - 1st try
-  - 1st hidden layer: Dense(units=24, input_dim=number_input_features, activation="relu"
+  - 1st hidden layer: Dense(units=30, input_dim=number_input_features, activation="relu"
   - 2nd hidden layer:Dense(units=12, activation="relu"
+  - 3rd hidden layer:Dense(units=8, activation="relu"
   - Output layer: Dense(units=1, activation="sigmoid"
+  - loss="binary_crossentropy", optimizer="adam", metrics= "accuracy", epochs = 100
   - The model accuracy = 0.72, loss = 0.56 
 
 - 2nd try
   - 1st hidden layer: Dense(units=24, input_dim=number_input_features, activation="relu"
   - 2nd hidden layer:Dense(units=12, activation="relu"
   - Output layer: Dense(units=1, activation="sigmoid"
+  - loss="binary_crossentropy", optimizer="adam", metrics= "accuracy", epochs = 100
   - The model accuracy = 0.72, loss = 0.56 
- 
- - 3rd Try
+
+- 3rd try
   - 1st hidden layer: Dense(units=24, input_dim=number_input_features, activation="relu"
   - 2nd hidden layer:Dense(units=12, activation="relu"
   - Output layer: Dense(units=1, activation="sigmoid"
+  - loss="binary_crossentropy", optimizer="adam", metrics= "accuracy", epochs = 100
   - The model accuracy = 0.72, loss = 0.56 
 
-- Hyperparameter optimization using Keras Tuner
+- Hyperparameter Optimization using Keras Tuner
+  -'activation': 'relu',
+  - 'first_units': 21,
+ 'num_layers': 2,
+ 'units_0': 26,
+ 'units_1': 11,
+ 'units_2': 16,
+ 'units_3': 26,
+ 'units_4': 1,
+ 'tuner/epochs': 20,
+ 'tuner/initial_epoch': 0,
+ 'tuner/bracket': 0,
+ 'tuner/round': 0}
   
 # Summary
 
