@@ -7,6 +7,7 @@ In this work, Neural Network Modeling (Deep Learning) was used to help a foundat
 
 **Tools:**
 - Python and Pandas
+- Jupyter Notebook
 - Scikit-Learn
 - Tensorflow
 - Keras tuner
