@@ -14,7 +14,7 @@ In this work, Neural Network Modeling (Deep Learning) was used to help a foundat
 - Git
 
 ## Results
-
+The initial deep learning analysis resulted in the model wioth 0.72 accuracy (loss = xx)
 For the three try outs, the model weights were successfully save on each 5th epoch (available in GitHub repository (checkpoint01, checkpoint02, and checkpoint03, respectively). 
 
 - For the initial Neural Network model, 2 hidden layers, and the output model was used as follows.
