@@ -46,7 +46,22 @@ Then the model was re-run 3 times as follows.
   - The model accuracy = 0.72, loss = 0.56 
 
 - Hyperparameter Optimization using Keras Tuner
+
   - Top 3 models against the test dataset
+ 
+  ![Top 3 model hp](images/top3models-hp.png) 
+  
+  **Top three models hyperparameters**
+  
+  ![Top 3 model accuracy](images/top3models.png) 
+  
+  **Top three models against the test dataset**
+  
+  ![Top 3 model accuracy](images/accuracy-after60.png)
+  
+  **Model accuracy after 60**
+  
+  
   - First model
     - 268/268 - 1s - loss: 0.5603 - accuracy: 0.7272 - 1s/epoch - 4ms/step
     - Loss: 0.5602916479110718, Accuracy: 0.7272303104400635
@@ -54,10 +69,21 @@ Then the model was re-run 3 times as follows.
   - Second model 
     - 268/268 - 1s - loss: 0.5564 - accuracy: 0.7269 - 1s/epoch - 4ms/step
     - Loss: 0.5564478635787964, Accuracy: 0.7268804311752319
+    
+    
+     ![2nd best model hyperparameters](images/2ndbest.png)
+  
+     **Second best model hyperparameters**
    
   - Third model
     - 268/268 - 1s - loss: 0.5604 - accuracy: 0.7266 - 1s/epoch - 4ms/step
     - Loss: 0.5604472160339355, Accuracy: 0.7266471982002258
+    
+    ![3rd best model hyperparameters](images/3rdbest.png)
+  
+    **Third best model hyperparameters**
+
+
 For full results, see the notebook. 
 
 # Summary
