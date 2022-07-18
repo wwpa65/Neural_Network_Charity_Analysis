@@ -45,7 +45,7 @@ Then the model was re-run 3 times as follows.
   - 1st hidden layer: Dense(units=24, input_dim=number_input_features, activation="relu"
   - 2nd hidden layer:Dense(units=12, activation="tanh"
   - Output layer: Dense(units=1, activation="sigmoid"
-  - loss="binary_crossentropy", optimizer="adam", metrics= "accuracy", epochs = 100
+  - loss="binary_crossentropy", optimizer="adam", metrics= "accuracy", epochs = 20
   - The model accuracy = 0.72, loss = 0.56 
 
 - Hyperparameter Optimization using Keras Tuner
