@@ -14,6 +14,9 @@ In this work, Neural Network Modeling (Deep Learning) was used to help a foundat
 - Git
 
 ## Results
+
+For the three try outs, the model weights were successfully save on each 5th epoch (available in GitHub repository (checkpoint_01, checkpoint_02, and checkpoint_03, respectively. 
+
 - For the initial Neural Network model, 2 hidden layers, and the output model was used as follows.
   - 1st hidden layer: Dense(units=24, input_dim=number_input_features, activation="relu"
   - 2nd hidden layer:Dense(units=12, activation="relu"
